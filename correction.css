@@ -1,0 +1,118 @@
+*{ /* je ne veux pas qu'il me donne des marges a mes elements */
+    margin:0;
+    padding: 0;
+}
+section{
+    height: 90vh;
+    border: 4px solid black;
+    margin:20px;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items: center;
+
+}
+.bloc{height: 100px ;
+    width: 200px;
+    font-size: 25px;
+    border: 4ox solid black;
+    background: red;
+    font-weight: bold;
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+    font-family: sans-serif;
+    text-align: center;
+    }
+.bloc2{
+    background: yellow;
+}
+.bloc3{
+    background: green;
+}
+#section2{
+   justify-content:flex-end;
+    align-items: flex-end;
+}
+#section3{
+   
+    flex-direction:column;
+    }
+#section4{
+    
+    flex-direction:column;
+    justify-content:flex-end;
+    align-items: flex-start;
+
+}
+#section5{
+    justify-content:space-between;
+    align-items: flex-end;
+
+}
+#section6{
+    height: 90vh;
+    border: 4px solid black;
+    margin:20px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+   
+
+}
+#section6 .bloc3
+{
+  
+    align-self:flex-start;
+
+}
+#section6 .bloc2{
+  
+    align-self:center;
+
+}
+#section6 .bloc1{
+    
+    align-self: flex-end;
+
+}
+#sectionH{
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+    gap: 20px; /* sépare entre les items */
+    
+}
+.card img{
+border-radius: 50%;
+height: 120px;
+width: 120px;
+object-fit: cover;
+border: 8px solid lightgrey;
+align-self: center;
+margin-bottom: 20px;
+
+
+}
+.card h1{
+    font-size: 30px;
+    color: coral;
+
+}
+.card p{
+    color: grey;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.card{
+    width: 300px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* box-shadow: horizental vertical(positve, negative -) le fou  ; rgba pour l'opacité  */
+}
